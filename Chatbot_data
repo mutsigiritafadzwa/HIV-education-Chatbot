@@ -1,0 +1,390 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hello! How can I assist you today?", "Hi! How can I help you?", "Hi there, what can I do for you?", "Hi there, how can I help?"],
+      "context_set": ["greeting"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
+      "context_set": ["goodbye"]
+    },
+    {
+      "tag": "hiv",
+      "patterns": ["What is hiv"],
+      "responses": ["HIV (human immunodeficiency virus) is a virus that attacks cells that help the body fight infection, making a person more vulnerable to other infections and diseases. If left untreated, HIV can lead to the disease AIDS."],
+      "context_set": ["hiv"]
+    },
+    {
+      "tag": "aids",
+      "patterns": ["what is aids?"],
+      "responses": ["Acquired Immune Deficiency Syndrome (AIDS) is a disease in which the body's natural immune (protection) system breaks down, leaving it unable to fight off infections. A person with AIDS gets illnesses that are little or no threat to others with a healthy immune system."],
+      "context_set": ["aids"]
+    },
+    {
+      "tag": "causes",
+      "patterns": ["What Causes AIDS?"],
+      "responses": ["AIDS is caused by the virus called Human Immunodeficiency Virus (HIV)", 
+        "HIV is present in the blood and other body fluids such as the semen or vaginal secretions of an infected person."],
+      "context_set": ["causes"]
+    },
+    {
+      "tag": "gethiv",
+      "patterns": ["How do I get HIV"],
+      "responses": ["having unprotected sexual intercourse with an infected person", 
+        "sharing drug needles with an infected person", 
+        "Through the transfusion or blood produced from an infected source (In Jamaica, all blood entering the Blood Bank is thoroughly screened for HIV).", 
+        "An infected mother can pass the virus on to her child either during pregnancy, at birth or through breastfeeding."],
+      "context_set": ["gethiv"]
+    },
+    {
+      "tag": "window",
+      "patterns": ["What is a Window Period?"],
+      "responses": [
+        "When a person gets infected it may take 6 weeks or up to 3 months before antibodies to HIV are detected in the blood", 
+        "When these antibodies are detected the person is diagnosed HIV positive", 
+        "A person can be positive and the test shows negative because the test was done during the window period",
+        "The HIV test looks for antibodies"
+      ],
+      "context_set": ["window"]
+    },
+    {
+      "tag": "risk_hiv",
+      "patterns": ["Who are at risk of getting HIV/AIDS?"],
+      "responses": [
+        "Persons who have sex without a condom.",
+        "Persons with many sex partners",
+        "Persons who have had repeated Sexually Transmitted Infections",
+        "Male and female sex workers",
+        "Sexually active homosexual and bisexual males",
+        "Persons who have sex with someone who is HIV positive",
+        "Past or present users of needles to inject illicit drugs, e.g. heroine"
+      ],
+      "context_set": ["risk_hiv"]
+    },
+    {
+      "tag": "HIV_enters_body",
+      "patterns": ["What happens when HIV enters the body?"],
+      "responses": [
+        "HIV is a silent virus which slowly destroys the body’s immune system", 
+        "The immune system protects the body from infections", 
+        "Without properly functioning immune system, an HIV positive person can have difficulty fighting off common infections."
+      ],
+      "context_set": ["HIV_enters_body"]
+    },
+    {
+      "tag": "has_hiv",
+      "patterns": ["Can I tell if a person has HIV?"],
+      "responses": ["You can’t tell by looking. A person with HIV can live for many years without showing any outward signs of illness. The majority of people infected with HIV do not know they have the virus: However, they can infect others. Persons who have been infected with HIV will eventually develop AIDS."],
+      "context_set": ["has_hiv"]
+    },
+    {
+      "tag": "if_hiv",
+      "patterns": ["How can I know if I am infected with HIV?"],
+      "responses": ["You have to take an HIV test to know if you are infected. The test looks for HIV antibodies, which would mean that the virus is present."],
+      "context_set": ["if_hiv"]
+    },
+    {
+      "tag": "aids_symptom",
+      "patterns": ["What are some of the symptoms of AIDS?"],
+      "responses": ["Fatigue", "Swollen glands in the neck, armpits or groin", "Diarrhea and loss of appetite lasting more than a month"],
+      "context_set": ["aids_symptomy"]
+    },
+    {
+      "tag": "casual_contact",
+      "patterns": ["Can I get HIV through casual contact?"],
+      "responses": ["No you cannot get HIV/AIDS through casual contact. There are no cases of persons getting the disease by shaking hands, sharing the same glass or utensils, using the same toilets, telephones or any other articles. You cannot get HIV/AIDS through regular household or workplace experiences."],
+      "context_set": ["any"]
+    },
+    {
+      "tag": "tech_support",
+      "patterns": ["Can HIV be prevented?"],
+      "responses": [
+        "Can HIV be prevented?",
+        "Be faithful to one uninfected partner",
+        "Use a latex condom every time you have sex (vaginal, anal, oral) with every partner",
+        "Do not d,o drugs or share injection needles",
+        "Seek early and complete treatment for STIs",
+        "Get the facts on STIs and AIDS"
+      ],
+      "context_set": ["any"]
+    },
+    {
+      "tag": "mosquito_bite",
+      "patterns": ["Can I get HIV from a mosquito bite?"],
+      "responses": ["No. Mosquitoes do not transmit HIV."],
+      "context_set": ["amosquito_bite"]
+    },
+    {
+      "tag": "kissing",
+      "patterns": ["Can I get HIV from kissing?"],
+      "responses": ["You cannot get HIV from kissing an infected person on the cheek.Where saliva is exchanged, it is unlikely that the virus will be transmitted. This is because one would have to swallow one gallon of the saliva from an infected person in order to contract the disease. However, the risk increases if an uninfected person has a sore or cut in the mouth."],
+      "context_set": ["kissing"]
+    },
+    {
+      "tag": "tech_support",
+      "patterns": ["I'm having technical issues", "Tech support", "My account is not working"],
+      "responses": ["I apologize for the inconvenience. Please provide more details, and I'll do my best to assist you."],
+      "context_set": ["any"]
+    },
+    {
+      "tag": "oral_sex",
+      "patterns": ["Can I get HIV from performing oral sex?"],
+      "responses": ["Yes, AIDS can be transmitted if there is an exchange of penile or vaginal secretions of an infected person, especially if there is a cut or sore on the uninfected person's penis or vagina."],
+      "context_set": ["oral_sex"]
+    },
+    {
+      "tag": "oral_sex_performed_on_me",
+      "patterns": ["Can I get HIV from having oral sex performed on me?"],
+      "responses": ["Yes, if your partner has HIV, blood from a cut or sore in their mouth can enter the urethra (the opening on the tip of the penis) or the vagina and you may become infected. However, using a latex condom or dental dam during oral sex reduces the risk of transmission. You can make a dental dam by cutting open a condom and using it as a barrier."],
+      "context_set": ["oral_sex_performed_on_me"]
+    },
+    {
+      "tag": "anal_sex",
+      "patterns": ["Can I get HIV from anal sex?"],
+      "responses": ["Yes, it is possible to get HIV from anal sex. The lining of the anus is very thin and can easily tear. Any exchange of blood or semen can transmit HIV."],
+      "context_set": ["anal_sex"]
+    },
+    {
+      "tag": "tatoo",
+      "patterns": ["Can I get HIV from a tattoo or body piercing needle?"],
+      "responses": ["The risk of getting HIV from tattoo or body piercing needles exists if the needles are not properly sterilized or disinfected. Instruments that are intended to pierce the skin should only be used once and then disposed of or thoroughly cleaned and disinfected. If you are considering getting a tattoo or piercing done, ask the staff at the establishment what precautions they take to prevent the spread of HIV."],
+      "context_set": ["tatoo"]
+    },
+    {
+      "tag": "not_ejaculate",
+      "patterns": ["Is it true that if an infected man does not ejaculate then he cannot pass HIV to an uninfected person?"],
+      "responses": ["No. HIV is present in the semen that a man ejaculates when he 'cums' or reaches orgasm. The virus is also present in the fluid commonly called the pre- ejaculatory fluid, which oozes out of the penis before or during the sex act. This fluid contains semen, which can carry the virus."],
+      "context_set": ["not_ejaculate"]
+    },
+    {
+      "tag": "condoms_reliable",
+      "patterns": ["Are condoms a very reliable way to protect myself from HIV?"],
+      "responses": ["Condoms are the best way to protect yourself from HIV and other STIs when they are used consistently and correctly."],
+      "context_set": ["condoms_reliable"]
+    },
+    {
+      "tag": "condom_breaks",
+      "patterns": ["What if the condom breaks during sex?"],
+      "responses": ["If the condom breaks during sex, the penis should be removed immediately and washed. A new condom should be used if you decide to resume sex."],
+      "context_set": ["condom_breaks"]
+    },
+    {
+      "tag": "get_hiv_test",
+      "patterns": ["Where can I get an HIV test?"],
+      "responses": ["You can get an HIV test at any health centre, hospital, private lab or doctor's office."],
+      "context_set": ["get_hiv_test"]
+    },
+    {
+      "tag": "how_test_done",
+      "patterns": ["How is the HIV test done?"],
+      "responses": ["There are three ways to perform the test, finger prick, pulling blood or an oral swab."],
+      "context_set": ["how_test_done"]
+    },
+    {
+      "tag": "soon_results",
+      "patterns": ["How soon will I get the results?"],
+      "responses": ["That depends on the type of test performed. If you do the test by the finger prick or oral swab method, you can receive the results within 20 minutes. If blood was pulled at a lab it may take a few days."],
+      "context_set": ["soon_results"]
+    },
+    {
+      "tag": "positive_result",
+      "patterns": ["What happens if I get a positive result?"],
+      "responses": ["If you have a positive HIV test result, a follow-up test will be done for confirmation. If the follow-up test is also positive, it means you are HIV-positive. The next step is to talk to your health care provider about antiretroviral therapy (ART). ART can keep you healthy for many years and greatly reduces your chance of transmitting HIV to your sex partner(s) if taken the right way, every day."],
+      "context_set": ["positive_result"]
+    },
+    {
+      "tag": "negative_result",
+      "patterns": ["What happens if I get a negative result?"],
+      "responses": ["This means that no HIV antibodies were detected. A negative result doesn't always mean that you don't have HIV. That's because of the window period. If you get an HIV test after a potential HIV exposure and the result is negative, get tested again after the window period (3 months) to be sure."],
+      "context_set": ["negative_result"]
+    },
+    {
+      "tag": "confidentiality",
+      "patterns": ["Will other people know my test results?"],
+      "responses": ["No. Anyone who does an HIV test has the right to confidentiality."],
+      "context_set": ["confidentiality"]
+    },
+    {
+      "tag": "self_test_accurate",
+      "patterns": ["Is the HIV self test accurate?"],
+      "responses": ["The HIV self-test will give accurate results if done properly. Read and follow the instructions carefully. If you are in the window period after HIV exposure you may get a negative result but you may have HIV. To be sure of your result it's best to do a follow up test at a testing site near you."],
+      "context_set": ["self_test_accurate"]
+    },
+    {
+      "tag": "baby_hiv",
+      "patterns": ["I am pregnant and HIV positive, Will my baby be born with HIV?"],
+      "responses": ["HIV can be passed to an unborn child either in the womb or during birth as the baby passes through the birth canal. HIV Can also be transmitted through the mother's breast milk. However, there are drugs available that can reduce the child's risk of getting HIV. All pregnant women should request an HIV test from their doctor."],
+      "context_set": ["baby_hiv"]
+    },
+    {
+      "tag": "normal_life",
+      "patterns": ["If I was born with HIV can I still have a normal life and a family?"],
+      "responses": ["Yes, many children that were born with HIV are now living healthy lives as adults with families of their own. The key to achieving this is staying on ARV medications and achieving viral suppression."],
+      "context_set": ["normal_life"]
+    },
+    {
+      "tag": "prep",
+      "patterns": ["What is PrEP?"],
+      "responses": ["Pre Exposure Prophylaxis or PrEP is a way for people who do not have HIV but who are at very high risk of getting HIV to prevent HIV infection by taking a pill every day. When taken daily, PrEP is highly effective for preventing HIV. PrEP is not effective if it is not taken consistently. As PrEP only protects against HIV, condoms are important for the protection against other Sexually Transmitted Infections."],
+      "context_set": ["prep"]
+    },
+    {
+      "tag": "pep",
+      "patterns": ["What is PEP"],
+      "responses": ["Post Exposure Prophylaxis or PEP is an HIV prevention strategy in which HIV-negative people take anti-HIV medications after possibly coming into contact with HIV to reduce their risk of infection. Examples of such situations include needle pricks or other contact with blood as well as victims of sexual assault. PEP must be started within 72 hours after HIV exposure."],
+      "context_set": ["pep"]
+    },
+    {
+      "tag": "arv",
+      "patterns": ["What are ARVs?"],
+      "responses": ["The drugs used to treat HIV are called ARVs. These medicines slow the progression of the virus in your body. ARVs are recommended for all people living with HIV, regardless of how long they've had the virus or how healthy they are. ARVs must be taken every day, exactly as your health care provider prescribes."],
+      "context_set": ["arv"]
+    },
+    {
+      "tag": "arv_important",
+      "patterns": ["Why are ARVs Important?"],
+      "responses": ["Starting and staying on ARVs is important because it reduces the amount of HIV in your blood (also called the viral load) to a very low level. This keeps you healthy and prevents illness. People living with HIV who take HIV medication daily as prescribed and maintain an undetectable viral load have a very low/ no risk of sexually transmitting HIV to their HIV-negative partners."],
+      "context_set": ["arv_important"]
+    },
+    {
+      "tag": "start_hiv_treatment",
+      "patterns": ["When should I start HIV treatment?"],
+      "responses": ["The World Health Organization recommends that a person living with HIV begin ART as soon as possible after diagnosis. Starting ART slows the progression of HIV and can keep you healthy for many years. Your health care provider will talk to you about what it means to be on treatment and help you to assess if you are ready to start."],
+      "context_set": ["start_hiv_treatment"]
+    },
+    {
+      "tag": "side_effects",
+      "patterns": ["Do ARVs have side effects?"],
+      "responses": ["NLike most medicines, antiretroviral drugs (ARVs) can cause side effects. However, not everyone experiences side effects from ARV. The HIV medications used today have fewer side effects, fewer people experience them, they are less severe and can go away with consistent use."],
+      "context_set": ["side_effects"]
+    },
+    {
+      "tag": "some_side_effects",
+      "patterns": ["What are some of the side effects of ARVs?"],
+      "responses": ["Nausea and vomiting", "Diarrhea", "Difficulty sleeping", "Dry mouth", "Headache", "Rash", "Dizziness", "Fatigue", "Pain"],
+      "context_set": ["some_side_effects"]
+    },
+    {
+      "tag": "side_effects_last",
+      "patterns": ["How long do side effects last?"],
+      "responses": ["People have different experiences with side effects. For some it is mild and does not last for more than a few days while others may experience side effects for a few weeks. In general side effects from taking ARVs should not last more than 2-3 weeks. Talk to your doctor or Adherence Counsellor about managing side effects."],
+      "context_set": ["side_effects_last"]
+    },
+    {
+      "tag": "medication",
+      "patterns": ["Why do I have to take my medication at a specific time?"],
+      "responses": ["The medication lasts in your body for a specific amount of time as a barrier to the virus. It stops the virus from multiplying and getting stronger. In order for the medication to be effective you have to be consistent with the time it is taken."],
+      "context_set": ["medication"]
+    },
+    {
+      "tag": "dissolve_medication",
+      "patterns": ["Can I dissolve my medication in water or juice and then take it?"],
+      "responses": ["No, the medication works best in its original state. Dissolving the medication will only prevent it from working properly."],
+      "context_set": ["dissolve_medication"]
+    },
+    {
+      "tag": "prescribed_dosage",
+      "patterns": ["Can I take more than the prescribed dosage to reach viral suppression sooner?"],
+      "responses": ["No, please take the medication as prescribed. Taking more than the required dosage may lead to overdose and possible organ failure."],
+      "context_set": ["prescribed_dosage"]
+    },
+    {
+      "tag": "fogert_arv",
+      "patterns": ["What should I do if I forget to take my ARVs?"],
+      "responses": ["Taking your HIV medication every day, exactly the way your health care provider tells you to will help keep your viral load low. If you skip doses, even now and then, you are giving HIV the chance to multiply rapidly. This could weaken your immune system, and you could become sick. In most cases, if you realize you missed a dose, take the medicines as soon as you can, then take the next dose at your usual scheduled time (unless your pharmacist or health care provider has told you something different)."],
+      "context_set": ["fogert_arv"]
+    },
+    {
+      "tag": "viral_load",
+      "patterns": ["What is viral load?"],
+      "responses": ["Viral load is the term used to describe the amount of HIV in a person's blood. The higher the viral load, the quicker a person's immune system will be damaged, increasing their chances of catching infections that the body would normally fight off very easily and increases the risk of transmission to a sexual partner."],
+      "context_set": ["viral_load"]
+    },
+    {
+      "tag": "undetectable_viral_load",
+      "patterns": ["What is an undetectable viral load?"],
+      "responses": ["A person living with HIV is considered to have an 'undetectable' viral load when antiretroviral treatment has brought the level of virus in their body to such low levels that a regular blood test cannot detect it. This does not mean that HIV has been cured."],
+      "context_set": ["undetectable_viral_load"]
+    },
+    {
+      "tag": "undetectable_take_medication",
+      "patterns": ["Do I still have to take HIV Medication If my viral load Is undetectable?"],
+      "responses": ["Yes, antiretroviral therapy (ART) reduces your viral load, ideally to an undetectable level. If your viral load goes down after starting ART, then the treatment is working, and you should continue to take your medicine as prescribed. If you keep an undetectable viral load, you can stay healthy."],
+      "context_set": ["undetectable_take_medication"]
+    },
+    {
+      "tag": "viral_suppression",
+      "patterns": ["What does viral suppression mean?"],
+      "responses": ["The terms viral suppression and undetectable viral load are used interchangeably to mean the same thing. This is when antiretroviral drugs (ARvs) reduces a person's viral load to an undetectable level. Viral suppression does not mean a person is cured; HIV still remains in the body. If ARVs are discontinued, the person's viral load will likely return to a detectable level and they will no longer be virally suppressed."],
+      "context_set": ["viral_suppression"]
+    },
+    {
+      "tag": "cd4",
+      "patterns": ["What does CD4 mean?"],
+      "responses": ["CD4 cells are white blood cells that play an important role in the immune system. Your CD4 cell count gives you an indication of the health of your immune system -your body's natural defence system against pathogens, infections and illnesses."],
+      "context_set": ["cd4"]
+    },
+    {
+      "tag": "cd4_count",
+      "patterns": ["What is a CD4 Count?"],
+      "responses": [
+        "Your CD4 cell count is the number of blood cells in a very small blood sample. It is not a count of all the CD4 cells in your body. A higher CD4 count indicates a stronger immune system. The CD4 cell count of a person who does not have HIV can be anything between 500 and 1500.",
+        "People living with HIV who have a CD4 count over 500 are usually in pretty good health.",
+        "People living with HIV who have a CD4 cell count below 200 have AIDS and are at high risk of developing serious illnesses.",
+        "HIV treatment is recommended for all people living with HIV. It is especially important for people with low CD4 counts."],
+      "context_set": ["cd4_count"]
+    },
+    {
+      "tag": "herbs_can_cure_hiv",
+      "patterns": ["Are there herbs or bush medicines that can cure HIV?"],
+      "responses": ["There is no cure for HIV. There are no herbs or bush medicines that are known to be effective in treating or curing HIV. Antiretroviral drugs (ARVs) are the best way to treat HIV."],
+      "context_set": ["herbs_can_cure_hiv"]
+    },
+    {
+      "tag": "screening",
+      "patterns": ["Are you Currently experiencing any health concerns or symptoms?"],
+      "responses": ["Yes", "No"],
+      "context_set": ["screening"]
+    },
+    {
+      "tag": "screening",
+      "patterns": ["Have you ever hesitated to get tested for HIV due to fear of judgment from others?"],
+      "responses": ["Yes", "No"],
+      "context_set": ["screening"]
+    },
+    {
+      "tag": "screening",
+      "patterns": ["Have you ever been tested for HIV before?"],
+      "responses": ["Yes", "No"],
+      "context_set": ["screening"]
+    },
+    {
+      "tag": "screening",
+      "patterns": ["Do you have sex with someone of the same sex, have multiple partners or use/inject drugs?"],
+      "responses": ["Yes", "No"],
+      "context_set": ["screening"]
+    },
+    {
+      "tag": "screening",
+      "patterns": ["Is/are your partner(s) living with HIV?"],
+      "responses": ["Yes", "No"],
+      "context_set": ["screening"]
+    },
+    {
+      "tag": "screening",
+      "patterns": ["Have you engaged in unprotected sex in the past year?"],
+      "responses": ["Yes", "No"],
+      "context_set": ["screening"]
+    },
+    {
+      "tag": "screening",
+      "patterns": ["You are eligible for HIV testing. HIV testing is available at"],
+      "responses": ["Public health facilities", "Private clinics", "Community health programs", "Mobile testing units", "Home testing kits are also available for privacy and convenience."],
+      "context_set": ["screening"]
+    }
+  ]
+}
